@@ -1,2 +1,2 @@
-var nombre = prompt("Cual es tu nombre?", "")
-document.write( "Aló " + nombre)
+var mi_nombre = "Rodolfo Arce";
+document.getElementById("prueba").innerHTML = mi_nombre;
