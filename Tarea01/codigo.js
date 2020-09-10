@@ -1,9 +1,8 @@
-var funcionario = {
-    nombre: "Rodolfo",
-    apellido: "Arce",
-    edad: 25,
-    direccion: "Mi calle 123",
-    telefono: "595 021 123 456"
+var ciudad = {
+    nombre: "Asuncion",
+    pais: "Paraguay"
 };
 
-document.getElementById("funcionario").innerHTML = funcionario.nombre + " " + funcionario.apellido + " con " + funcionario.edad + " años de edad vive en " + funcionario.direccion + " puede localizarlo al teléfono " + funcionario.telefono;
+ciudad = null;
+
+document.getElementById("ciudad").innerHTML = typeof ciudad;
