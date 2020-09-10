@@ -1,3 +1,8 @@
-var nombres = ["Rodolfo", "Beatriz","Daniel", "María", "Belén", "Victoria", "Luís", "Mariela", "Jorge", "Lilian"];
+// Creado por Rodolfo Arce
 
-document.getElementById("seleccion").innerHTML = nombres[2];
+/*
+Ejemplo realizado para el curso de SNPP de JavaScript
+con varias lineas de comentario
+*/
+
+alert("Demostración de comentario")
