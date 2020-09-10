@@ -1,8 +1,3 @@
-var ciudad = {
-    nombre: "Asuncion",
-    pais: "Paraguay"
-};
+var nombres = ["Rodolfo", "Beatriz","Daniel", "María", "Belén", "Victoria", "Luís", "Mariela", "Jorge", "Lilian"];
 
-ciudad = null;
-
-document.getElementById("ciudad").innerHTML = typeof ciudad;
+document.getElementById("seleccion").innerHTML = nombres[2];
