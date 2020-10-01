@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulario de contacto</title>
+    <link rel="stylesheet" href="estilos.css" media="all" />
+</head>
+<body>
+    <h1 class="logodescrip">Empresa de prueba</h1>
+    <section id="contenedor">
+        <h1>Ejemplo de Formulario JS</h1>
+        <form action="enviar.html" method="POST" id="formulario" name="formulario">
+            <fieldset>
+                <legend>Tus datos:</legend>
+                    <label for="nombres">Nombres y apellidos:</label></br>
+                    <input type="text" name="nombres" id="nombres" /></br>
+
+                    <label for="edad">Edad:</label></br>
+                    <input type="text" name="edad" id="edad" /></br>
+
+                    <label for="direccion">Dirección:</label></br>
+                    <input type="text" name="direccion" id="direccion" /></br>
+
+                    <label for="email">Email:</label></br>
+                    <input type="text" name="email" id="email" /></br>
+                
+                    <label for="website">Website:</label></br>
+                    <input type="text" name="website" id="website" /></br>
+
+                    <label for="telefono">Teléfono:</label></br>
+                    <input type="text" name="telefono" id="telefono" /></br>
+            </fieldset>
+            </br>
+            <label for="comentario">Comentario:</label></br>
+            <textarea name="comentario" id="comentario" cols="70" rows="10" maxlength="1000" onkeypress="calcular()" onkeyup="calcular()">
+            </textarea></br>
+            <p>Le quedan <span id="contador-char">1000</span> de 1000 caracteres.</p>
+            </br>
+            </br>
+            <button type="button" name="enviar" id="enviar" class="cambio">Enviar</button>
+            <button type="button" name="limpiar" id="limpiar" class="cambio">Limpiar</button>
+        </form>
+    </section>
+    <script async type="text/javascript" src="codigo.js"></script>
+</body>
+</html>
